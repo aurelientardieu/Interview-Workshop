@@ -1,5 +1,10 @@
 /*INFORMATIONS*/
 
+#logo{
+  position: absolute;
+  width: 200px;
+}
+
 .infos{
   position: absolute;
   width: 100%;
@@ -30,17 +35,45 @@
 
 /*ICONES*/
 
-#icons{
+.icons{
   float: right;
   display: flex;
   flex-direction: column;
+  justify-content: space-around;
   margin-right: 8%;
 }
 
-#icons img{
+.icons img{
   width: 100px;
-  padding-bottom: 2em;
 }
+
+.icons a {
+  padding-top: 2em;
+}
+
+/* SON */
+
+#ON{
+  display: none;
+  width: 100px;
+  height: 100px;
+}
+
+#btn--son{
+  width: 100px;
+  height: 100px;
+  display: block;
+  background: url('../images/son_off.png') center no-repeat;
+  border-radius: 50%;
+  background-size: 100px;
+  -o-transition:.5s;
+  -ms-transition:.5s;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+
+}
+
 
 /* IMAGE DE FOND */
 
