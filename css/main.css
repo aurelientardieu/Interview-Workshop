@@ -1,18 +1,12 @@
-/* SON */
-
-#interview{
-
-}
-
 /*INFORMATIONS*/
 
 #logo{
   position: absolute;
-  width: 25%;
+  width: 30%;
 }
 
 .infos{
-  position: absolute;
+  position: fixed;
   width: 100%;
   bottom: 0;
   padding-bottom: 5vh;
@@ -50,28 +44,28 @@
 }
 
 .icons img{
-  width: 3em;
+  width: 100px;
 }
 
 .icons a {
-  padding-top: 2em;
+  padding-top: 100px;
 }
 
 /* SON */
 
 #ON{
   display: none;
-  width: 3em;
-  height: 3em;
+  width: 100px;
+  height: 100px;
 }
 
 #btn--son{
-  width: 3em;
-  height: 3em;
+  width: 100px;
+  height: 100px;
   display: block;
   background: url('../images/son_off.png') center no-repeat;
   border-radius: 50%;
-  background-size: 3em;
+  background-size: 100px;
   -o-transition:.5s;
   -ms-transition:.5s;
   -moz-transition:.5s;
@@ -79,7 +73,6 @@
   transition:.5s;
 
 }
-
 
 /* IMAGE DE FOND */
 
