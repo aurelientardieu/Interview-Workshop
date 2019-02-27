@@ -13,8 +13,17 @@ button01.onclick = afficher;
 
 // Player musique //
 
-var x = document.getElementById("myAudio");
+var x = document.getElementById("audio-01");
 
 function playAudio() {
   return x.paused ? x.play() : x.pause();
 }
+
+// Swiper //
+
+var swiper = new Swiper('.swiper-container', {
+       pagination: '.swiper-pagination',
+       slidesPerView: 'auto',
+       paginationClickable: true,
+       spaceBetween: 0
+   });

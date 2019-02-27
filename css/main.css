@@ -86,7 +86,6 @@
 
 /* A PROPOS */
 
-
 .btn-ecouter{
   margin: 0 auto;
 display: block;
@@ -110,8 +109,6 @@ align-self: center;
 text-decoration: none;
 }
 
-
-
 .picto {
   width: 50px;
   height: 50px;
@@ -122,5 +119,10 @@ text-decoration: none;
   top: 20%;
   padding: 40px;
   display: inline-block;
+}
 
+/* SWIPER */
+
+.swiper-pagination{
+  position: fixed;
 }
