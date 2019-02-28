@@ -54,3 +54,31 @@ color: #575757;
   font-weight: 800;
   color: #575757;
 }
+
+@media screen and (max-height: 640px){
+  h1{
+    font-size: 3em;
+  }
+
+  h2{
+    font-size: 2em;
+  }
+
+  h3{
+    font-size: 1.8em;
+  }
+  #a-propos h2{
+  font-size: 2em;
+  }
+  p{
+    font-size: 1em;
+    line-height: 1.4em;
+  }
+  .legende {
+    line-height: 1.2em;
+    font-size: 1.2em;
+  }
+  #retour a{
+    font-size: 1.5em;
+  }
+}

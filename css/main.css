@@ -5,6 +5,12 @@
   width: 30%;
 }
 
+@media screen and (max-height: 640px){
+  #logo{
+    width: 15%;
+  }
+}
+
 .infos01{
   position: fixed;
   width: 100%;
@@ -60,6 +66,13 @@
   background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 }
 
+@media screen and (max-height: 640px){
+  .infos01, .infos02, .infos03, .infos04, .infos05{
+    padding-bottom: 10vh;
+  }
+}
+
+
 /* TEXTE */
 
 #texte{
@@ -75,6 +88,15 @@
 
 #texte h2{
   padding-bottom: 0.8em;
+}
+
+@media screen and (max-height: 640px){
+  #texte{
+    margin-left: 4%;
+  }
+  #texte h1{
+    padding-bottom: 0.3em;
+  }
 }
 
 /*ICONES*/
@@ -93,6 +115,16 @@
 
 .icons a {
   padding-top: 100px;
+}
+
+@media screen and (max-height: 640px){
+  .icons img{
+    width: 50px;
+  }
+  .icons a {
+    padding-top: 50px;
+  }
+
 }
 
 /* SON */
@@ -136,6 +168,17 @@
   background-size: 100px;
 }
 
+@media screen and (max-height: 640px){
+  #ON1, #ON2, #ON3, #ON4, #ON5{
+    width: 65px;
+    height: 65px;
+  }
+  #btn--son{
+    width: 65px;
+    height: 65px;
+    background-size: 65px;
+}
+}
 /* IMAGE DE FOND */
 
 #bgd--img01 img{
@@ -211,6 +254,27 @@
   top: 20vh;
   padding: 5%;
   display: inline-block;
+}
+
+@media screen and (max-height: 640px){
+  #retour{
+    margin-top: 4vh;
+    padding-bottom: 6vh;
+  }
+  #retour a{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 40px;
+    box-shadow: 0 8px #C6C6C6;
+  }
+  #retour:active{
+    transform: translateY(8px);
+  }
+  #a-propos{
+    top: 15vh;
+  }
 }
 
 /* SWIPER */
