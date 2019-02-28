@@ -96,7 +96,7 @@ function playAudio04() {
   return y.paused ? y.play() : y.pause();
 }
 
-// Player musique 04 //
+// Player musique 05 //
 
 var z = document.getElementById("audio-05");
 
