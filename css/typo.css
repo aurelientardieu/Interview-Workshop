@@ -47,7 +47,11 @@ font-size: 2.2em;
 margin-top: 2vh;
 color: #575757;
 }
-
+.nom {
+  line-height: 1.8em;
+  font-size: 1.4em;
+  color: #575757;
+}
 #retour a{
   font-family: 'Nunito', sans-serif;
   font-size: 2.5em;
